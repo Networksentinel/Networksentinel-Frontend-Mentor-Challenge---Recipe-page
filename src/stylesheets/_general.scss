@@ -24,12 +24,17 @@ ul, ol {
     gap: $space-200;
     padding-left: $space-100;
 
-    & i {
+    & i{
         font-size: $font-size-xm;
         padding-right: $space-150;
+        color: $brown-800;
     }
     }
 }
+
+ol li {
+        align-items: flex-start;
+    }
 
 span {
     @include text-preset-4-Bold;

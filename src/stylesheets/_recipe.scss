@@ -34,6 +34,10 @@
 
     padding: $space-300 $space-300;
     background-color: $rose-50;
+
+    & i {
+        color: $rose-800;
+    }
 }
 
 .recipe__prep-heading {
