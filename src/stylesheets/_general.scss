@@ -10,3 +10,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+ul, ol {
+    list-style-position: inside;
+}
