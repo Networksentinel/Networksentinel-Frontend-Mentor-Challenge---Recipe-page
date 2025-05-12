@@ -1,10 +1,5 @@
 @use './variables' as *;
 
-// Global typography variables
-$letter-spacing-default: 0px;
-$line-height-default: 1;
-$line-height-large: 1.5;
-
 //FONTS
 @font-face {
     font-family: 'outfit-regular';
@@ -18,8 +13,25 @@ $line-height-large: 1.5;
     font-family: 'outfit-bold';
     src: url('../fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
 }
+
+// Global typography variables
+$letter-spacing-default: 0px;
+$line-height-default: 1;
+$line-height-large: 1.5;
+
+//FONT SIZES
+$font-size-xl: 40px;
+$font-size-lg: 28px;
+$font-size-md: 20px;
+$font-size-sm: 16px;
+
+//FONT WEIGHTS
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
 //TEXT PRESETS
-@mixin text-preset-1($font-family:'Young Serif', $font-weight:400, $font-size:40px, $line-height:$line-height-default, $letter-spacing:0px) {
+@mixin text-preset-1($font-family:'Young Serif', $font-weight:$font-weight-regular, $font-size:$font-size-xl, $line-height:$line-height-default, $letter-spacing:$letter-spacing-default) {
     font-family: $font-family, serif;
     font-weight: $font-weight;
     font-size: $font-size;
@@ -27,7 +39,7 @@ $line-height-large: 1.5;
     letter-spacing: $letter-spacing;
 }
 
-@mixin text-preset-2($font-family:'Young Serif', $font-weight:400, $font-size:28px, $line-height:$line-height-default, $letter-spacing:0px) {
+@mixin text-preset-2($font-family:'Young Serif', $font-weight:$font-weight-regular, $font-size:$font-size-lg, $line-height:$line-height-default, $letter-spacing:$letter-spacing-default) {
     font-family: $font-family, serif;
     font-weight: $font-weight;
     font-size: $font-size;
@@ -35,7 +47,7 @@ $line-height-large: 1.5;
     letter-spacing: $letter-spacing;
 }
 
-@mixin text-preset-3($font-family:'outfit-semibold', $font-weight:600, $font-size:20px, $line-height:$line-height-default, $letter-spacing:$letter-spacing-default) {
+@mixin text-preset-3($font-family:'outfit-semibold', $font-weight:$font-weight-semibold, $font-size:$font-size-md, $line-height:$line-height-default, $letter-spacing:$letter-spacing-default) {
     font-family: $font-family, sans-serif;
     font-weight: $font-weight;
     font-size: $font-size;
@@ -43,7 +55,7 @@ $line-height-large: 1.5;
     letter-spacing: $letter-spacing;
 }
 
-@mixin text-preset-4($font-family:'outfit-regular', $font-weight:400, $font-size:16px, $line-height:$line-height-large, $letter-spacing:$letter-spacing-default) {
+@mixin text-preset-4($font-family:'outfit-regular', $font-weight:$font-weight-regular, $font-size:$font-size-sm, $line-height:$line-height-large, $letter-spacing:$letter-spacing-default) {
     font-family: $font-family, sans-serif;
     font-weight: $font-weight;
     font-size: $font-size;
@@ -51,7 +63,7 @@ $line-height-large: 1.5;
     letter-spacing: $letter-spacing;
 }
 
-@mixin text-preset-4-Bold($font-family:'outfit-bold', $font-weight:700, $font-size:16px, $line-height:$line-height-large, $letter-spacing:$letter-spacing-default) {
+@mixin text-preset-4-Bold($font-family:'outfit-bold', $font-weight:$font-weight-bold, $font-size:$font-size-sm, $line-height:$line-height-large, $letter-spacing:$letter-spacing-default) {
     font-family: $font-family, sans-serif;
     font-weight: $font-weight;
     font-size: $font-size;
