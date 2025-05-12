@@ -13,8 +13,12 @@ body {
 
 ul, ol {
     list-style-position: inside;
-    
+
     display: flex;
     flex-direction: column;
     gap: $space-100;
+}
+
+span {
+    @include text-preset-4-Bold;
 }
