@@ -7,15 +7,18 @@ body {
     font-size: 1rem;
     color: $stone-600;
 }
-h1 {
-    font-size: clamp(2rem, 3.9vw, 3.5rem); /* 40px/2.5rem at 1024px wide */
-    color: $stone-900;
-}
-h2 {
+
+.recipe__heading {
     font-size: clamp(1.75rem, 3.1vw, 3rem); /* h2: 32px/2rem at 1024px wide*/
     color: $brown-800;
 }
-h3 {
+
+.recipe__intro-title {
+    font-size: clamp(2rem, 3.9vw, 3.5rem); /* 40px/2.5rem at 1024px wide */
+    color: $stone-900;
+}
+
+.recipe__prep-heading {
     font-size: 1.5rem;
     color: $rose-800
 }
