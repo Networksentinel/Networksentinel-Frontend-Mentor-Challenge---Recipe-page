@@ -10,12 +10,11 @@ $stone-100: #F3E5D7;
 $brown-800:#854632;
 $white: #FFFFFF;
 
-//SPACINGS
-$space-1600: 128px;
-$space-600: 48px;
-$space-500: 40px;
-$space-400: 32px;
-$space-300: 24px;
-$space-200: 16px;
-$space-150: 12px;
-$space-100: 8px;
+$space-1600: 8rem;  // 128px / 16
+$space-600: 3rem;   // 48px / 16
+$space-500: 2.5rem; // 40px / 16
+$space-400: 2rem;   // 32px / 16
+$space-300: 1.5rem; // 24px / 16
+$space-200: 1rem;   // 16px / 16
+$space-150: 0.75rem; // 12px / 16
+$space-100: 0.5rem;  // 8px / 16
