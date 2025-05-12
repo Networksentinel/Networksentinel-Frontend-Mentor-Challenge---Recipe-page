@@ -31,6 +31,9 @@
     display: flex;
     flex-direction: column;
     gap: $space-200;
+
+    padding: $space-300 $space-300;
+    background-color: $rose-50;
 }
 
 .recipe__prep-heading {
