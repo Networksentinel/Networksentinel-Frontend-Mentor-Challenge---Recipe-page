@@ -1,13 +1,13 @@
 @use './design' as *;
 
-.recipe__heading {
-    font-size: clamp(1.75rem, 3.1vw, 3rem); /* h2: 32px/2rem at 1024px wide*/
-    color: $brown-800;
+.recipe__intro-title {
+    @include text-preset-1;
+    color: $stone-900;
 }
 
-.recipe__intro-title {
-    font-size: clamp(2rem, 3.9vw, 3.5rem); /* 40px/2.5rem at 1024px wide */
-    color: $stone-900;
+.recipe__heading {
+    @include text-preset-2;
+    color: $brown-800;
 }
 
 .recipe__prep-heading {

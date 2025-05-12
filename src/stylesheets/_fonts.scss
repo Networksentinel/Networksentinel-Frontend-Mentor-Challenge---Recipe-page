@@ -2,16 +2,20 @@
 
 //FONT FACES
 @font-face {
+    font-family: 'young-serif-regular';
+    src: url('/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+@font-face {
     font-family: 'outfit-regular';
-    src: url('../fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+    src: url('/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'outfit-semibold';
-    src: url('../fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
+    src: url('/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'outfit-bold';
-    src: url('../fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
+    src: url('/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
 }
 
 // TYPOGRAPHY VARIABLES
@@ -31,15 +35,15 @@ $font-weight-semibold: 600;
 $font-weight-bold: 700;
 
 //TEXT PRESETS MIXINS
-@mixin text-preset-1($font-family:'Young Serif', $font-weight:$font-weight-regular, $font-size:$font-size-xl, $line-height:$line-height-default, $letter-spacing:$letter-spacing-default) {
-    font-family: $font-family, serif;
+@mixin text-preset-1($font-family:'young-serif-regular', $font-weight:$font-weight-regular, $font-size:$font-size-xl, $line-height:$line-height-default, $letter-spacing:$letter-spacing-default) {
+    font-family: $font-family;
     font-weight: $font-weight;
     font-size: $font-size;
     line-height: $line-height;
     letter-spacing: $letter-spacing;
 }
 
-@mixin text-preset-2($font-family:'Young Serif', $font-weight:$font-weight-regular, $font-size:$font-size-lg, $line-height:$line-height-default, $letter-spacing:$letter-spacing-default) {
+@mixin text-preset-2($font-family:'young-serif-regular', $font-weight:$font-weight-regular, $font-size:$font-size-lg, $line-height:$line-height-default, $letter-spacing:$letter-spacing-default) {
     font-family: $font-family, serif;
     font-weight: $font-weight;
     font-size: $font-size;
