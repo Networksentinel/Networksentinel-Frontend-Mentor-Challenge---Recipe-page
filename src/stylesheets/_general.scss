@@ -6,4 +6,7 @@ html {
 body {
     @include text-preset-4;
     color: $stone-600;
+
+    display: flex;
+    flex-direction: column;
 }

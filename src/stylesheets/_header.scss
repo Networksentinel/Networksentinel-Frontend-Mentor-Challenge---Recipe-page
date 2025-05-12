@@ -1,2 +1,8 @@
 @use './design' as *;
 
+header {
+    width: 375px;
+    height: 171px;
+    background: url(/images/image-omelette.jpeg) no-repeat center center;
+    background-size: contain;
+}
