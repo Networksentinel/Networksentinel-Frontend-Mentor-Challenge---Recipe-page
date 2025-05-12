@@ -1,6 +1,14 @@
 @use './design' as *;
 
 // RECIPE
+.recipe {
+    display: flex;
+    flex-direction: column;
+    gap: $space-400;
+
+    padding: $space-500 $space-400;
+}
+
 .recipe__heading {
     @include text-preset-2;
     color: $brown-800;
