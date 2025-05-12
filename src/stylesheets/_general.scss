@@ -10,32 +10,3 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-ul, ol {
-    list-style: none;
-
-    display: flex;
-    flex-direction: column;
-    gap: $space-100;
-
-    & li {
-    display: flex;
-    align-items: center;
-    gap: $space-200;
-    padding-left: $space-100;
-
-    & i{
-        font-size: $font-size-xm;
-        padding-right: $space-150;
-        color: $brown-800;
-    }
-    }
-}
-
-ol li {
-        align-items: flex-start;
-    }
-
-span {
-    @include text-preset-4-Bold;
-}

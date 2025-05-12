@@ -1,12 +1,41 @@
 @use './design' as *;
 
-// RECIPE
+// RECIPE GENERAL STYLES
 .recipe {
     display: flex;
     flex-direction: column;
     gap: $space-400;
 
     padding: $space-500 $space-400;
+}
+
+.recipe ul, ol {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: $space-100;
+
+    & li {
+    display: flex;
+    align-items: center;
+    gap: $space-200;
+    padding-left: $space-100;
+
+    & i{
+        font-size: $font-size-xm;
+        padding-right: $space-150;
+        color: $brown-800;
+    }
+    }
+}
+
+.recipe ol li {
+        align-items: flex-start;
+    }
+
+.recipe span {
+    @include text-preset-4-Bold;
 }
 
 .recipe section:not(.recipe__prep) {
@@ -20,13 +49,13 @@
     color: $brown-800;
 }
 
-// INTRO
+// RECIPE INTRO
 .recipe__intro-title {
     @include text-preset-1;
     color: $stone-900;
 }
 
-// PREPARATION
+// RECIPE PREPARATION
 .recipe__prep {
     display: flex;
     flex-direction: column;
@@ -45,9 +74,9 @@
     color: $rose-800
 }
 
-// INGREDIENTS
+// RECIPE INGREDIENTS
 
-// INSTRUCTIONS
+// RECIPE INSTRUCTIONS
 .recipe__instructions {
     padding-top: $space-400
 }
@@ -56,7 +85,7 @@
     color: $brown-800;
 }
 
-// NUTRITION
+// RECIPE NUTRITION
 .recipe__nutrition {
     padding-top: $space-400
 }
