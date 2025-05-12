@@ -1,7 +1,7 @@
 @use './design' as *;
 
 html {
-    font-size: clamp(12px, 1.56vw, 20px); /* 16px at 1024px wide */
+    font-size: 100%;
 }
 body {
     @include text-preset-4;
