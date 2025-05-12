@@ -9,6 +9,12 @@
     padding: $space-500 $space-400;
 }
 
+.recipe section:not(.recipe__prep) {
+    display: flex;
+    flex-direction: column;
+    gap: $space-300;
+}
+
 .recipe__heading {
     @include text-preset-2;
     color: $brown-800;
@@ -21,6 +27,11 @@
 }
 
 // PREPARATION
+.recipe__prep {
+    display: flex;
+    flex-direction: column;
+    gap: $space-200;
+}
 
 .recipe__prep-heading {
     @include text-preset-3;
