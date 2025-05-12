@@ -52,6 +52,10 @@
     padding-top: $space-400
 }
 
+.recipe__instructions-list p:first-child {
+    color: $brown-800;
+}
+
 // NUTRITION
 .recipe__nutrition {
     padding-top: $space-400
