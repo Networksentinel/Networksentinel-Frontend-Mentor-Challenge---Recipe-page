@@ -1,5 +1,10 @@
 @use './variables' as *;
 
+// Global typography variables
+$letter-spacing-default: 0px;
+$line-height-default: 1;
+$line-height-large: 1.5;
+
 //FONTS
 @font-face {
     font-family: 'outfit-regular';
