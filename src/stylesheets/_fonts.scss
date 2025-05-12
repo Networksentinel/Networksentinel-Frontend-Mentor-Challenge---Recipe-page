@@ -1,6 +1,6 @@
 @use './variables' as *;
 
-//FONTS
+//FONT FACES
 @font-face {
     font-family: 'outfit-regular';
     src: url('../fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
@@ -14,7 +14,7 @@
     src: url('../fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
 }
 
-// Global typography variables
+// TYPOGRAPHY VARIABLES
 $letter-spacing-default: 0px;
 $line-height-default: 1;
 $line-height-large: 1.5;
@@ -30,7 +30,7 @@ $font-weight-regular: 400;
 $font-weight-semibold: 600;
 $font-weight-bold: 700;
 
-//TEXT PRESETS
+//TEXT PRESETS MIXINS
 @mixin text-preset-1($font-family:'Young Serif', $font-weight:$font-weight-regular, $font-size:$font-size-xl, $line-height:$line-height-default, $letter-spacing:$letter-spacing-default) {
     font-family: $font-family, serif;
     font-weight: $font-weight;
