@@ -1,0 +1,9 @@
+@use './design' as *;
+
+html {
+    font-size: clamp(12px, 1.56vw, 20px); /* 16px at 1024px wide */
+}
+body {
+    font-size: 1rem;
+    color: $stone-600;
+}
