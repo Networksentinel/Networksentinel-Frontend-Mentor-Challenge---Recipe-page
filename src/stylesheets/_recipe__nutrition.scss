@@ -1,2 +1,6 @@
 @use './design' as *;
 
+.recipe__nutrition {
+    padding-top: $space-400;
+    border-top: 1px solid $stone-150;
+}
