@@ -1,6 +1,6 @@
 @use './design' as *;
 
-.header-img {
+header {
     width: 375px;
     height: 171px;
 
@@ -10,7 +10,16 @@
             height: 300px;
             
             margin: $space-500 $space-500 0 $space-500;
+        }
+    }
+}
 
+.header-img {
+    width: 100%;
+    height: 100%;
+
+    @media (min-width: 768px) {
+        & {
             border-radius: $space-150;
         }
     }
