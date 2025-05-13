@@ -15,6 +15,11 @@
 
 .recipe__nutrition-table tr:not(:first-child) td{
     border-top: 1px solid $stone-150;
+    padding-top: $space-150;
+}
+
+.recipe__nutrition-table tr:not(:last-child) td{
+    padding-bottom: $space-150;
 }
 
 .recipe__nutrition-table tbody td:first-child {
