@@ -1,17 +1,11 @@
 @use './design' as *;
 
-header {
+.recipe__header {
     width: $width-primary;
     height: $height-primary;
-
-    @media (min-width: 768px) {
-        & { 
-            margin: $margin-primary $margin-primary 0 $margin-primary;
-        }
-    }
 }
 
-.header-img {
+.recipe__header-img {
     width: 100%;
     height: 100%;
 
