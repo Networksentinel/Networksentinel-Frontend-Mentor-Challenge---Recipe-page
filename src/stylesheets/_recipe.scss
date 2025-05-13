@@ -3,6 +3,8 @@
 //----------------GENERAL STYLES
 
 .recipe {
+    width: $width-primary;
+
     display: flex;
     flex-direction: column;
     gap: $space-400;

@@ -1,15 +1,12 @@
 @use './design' as *;
 
 header {
-    width: 375px;
-    height: 171px;
+    width: $width-primary;
+    height: $height-primary;
 
     @media (min-width: 768px) {
-        & {
-            width: 536px;
-            height: 300px;
-            
-            margin: $space-500 $space-500 0 $space-500;
+        & { 
+            margin: $margin-primary $margin-primary 0 $margin-primary;
         }
     }
 }
