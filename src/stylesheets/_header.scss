@@ -1,14 +1,17 @@
 @use './design' as *;
 
-header {
+.header-img {
     width: 375px;
     height: 171px;
-    background: url(/images/image-omelette.jpeg) no-repeat center center;
-    background-size: contain;
 
     @media (min-width: 768px) {
         & {
+            width: 536px;
+            height: 300px;
+            
             margin: $space-500 $space-500 0 $space-500;
+
+            border-radius: $space-150;
         }
     }
 }
