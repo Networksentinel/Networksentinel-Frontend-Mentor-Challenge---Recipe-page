@@ -9,6 +9,14 @@
 
 //----------------NUTRITION TABLE
 
+.recipe__nutrition-table{
+    border-collapse: collapse;
+}
+
+.recipe__nutrition-table tr:not(:first-child) td{
+    border-top: 1px solid $stone-150;
+}
+
 .recipe__nutrition-table tbody td:first-child {
     padding-left: $space-400;
 }
