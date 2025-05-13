@@ -16,7 +16,12 @@ body {
 
 main {
     background-color: $white;
-    padding: $space-500 $space-400;
+
+    @media (min-width: 420px) {
+        & {
+            padding: $space-500 $space-400;
+        }
+    }
 
     @media (min-width: 768px) {
         & {
