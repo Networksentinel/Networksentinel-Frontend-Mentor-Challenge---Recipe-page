@@ -1,11 +1,13 @@
 @use './design' as *;
 
+//----------------GENERAL STYLES
+
 .recipe__nutrition {
     padding-top: $space-400;
     border-top: 1px solid $stone-150;
 }
 
-// NUTRITION TABLE
+//----------------NUTRITION TABLE
 
 .recipe__nutrition-table tbody td:nth-child(2) {
     @include text-preset-4-Bold;
