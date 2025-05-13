@@ -1,6 +1,7 @@
 @use './variables' as *;
 
-//FONT FACES
+//----------------FONT FACES
+
 @font-face {
     font-family: 'young-serif-regular';
     src: url('/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
@@ -18,24 +19,28 @@
     src: url('/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
 }
 
-// TYPOGRAPHY VARIABLES
+//----------------TYPOGRAPHY VARIABLES
+
 $letter-spacing-default: 0px;
 $line-height-default: 1;
 $line-height-large: 1.5;
 
-// FONT SIZES
+//----------------FONT SIZES
+
 $font-size-xl: 2.3rem; // 36.8px / 16 - adjusted as 2.5rem (40px) was not the same as in Figma
 $font-size-lg: 1.75rem; // 28px / 16
 $font-size-md: 1.25rem; // 20px / 16
 $font-size-sm: 1rem;    // 16px / 16
 $font-size-xm: 0.25rem; // 4px / 16
 
-//FONT WEIGHTS
+//----------------FONT WEIGHTS
+
 $font-weight-regular: 400;
 $font-weight-semibold: 600;
 $font-weight-bold: 700;
 
-//TEXT PRESETS MIXINS
+//----------------TEXT PRESETS MIXINS
+
 @mixin text-preset-1($font-family:'young-serif-regular', $font-weight:$font-weight-regular, $font-size:$font-size-xl, $line-height:$line-height-default, $letter-spacing:$letter-spacing-default) {
     font-family: $font-family;
     font-weight: $font-weight;
