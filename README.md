@@ -20,8 +20,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [My solution link](https://www.frontendmentor.io/solutions/recipe-page-using-sassscss-and-build-with-vite-knm5sR-gGw)
+- [Live site link](https://networksentinel.github.io/Networksentinel-Frontend-Mentor-Challenge---Recipe-page/)
 
 ## My process
 
